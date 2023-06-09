@@ -2,11 +2,13 @@
 .logo{
     height: 75px;
     width: 175px;
-    margin-left: 2vmin;
+    margin-left: 5vmin;
+
 }
 
 header{
-    margin: 5vmin;
+    margin-top: 7vmin;
+    margin-bottom: 7vmin;
     display: flex;
 }
 
@@ -14,11 +16,12 @@ header{
   grid-row: 1 / 2;
   font-size: 3vmin;
   grid-column: 1 / 4;
-  width: 80%;
+  width: 70%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   border-radius: 2vmin;
+  margin-right: 0;
 }
 
 a {
