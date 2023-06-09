@@ -19,7 +19,7 @@ export default function App() {
         <Route path="/featured" element={<Featured />}></Route>
         <Route path="/itinerary" element={<Itinerary />}></Route>
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

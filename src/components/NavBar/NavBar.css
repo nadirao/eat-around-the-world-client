@@ -1,0 +1,28 @@
+
+.logo{
+    height: 75px;
+    width: 175px;
+    margin-left: 2vmin;
+}
+
+header{
+    margin: 5vmin;
+    display: flex;
+}
+
+.navbar{
+  grid-row: 1 / 2;
+  font-size: 3vmin;
+  grid-column: 1 / 4;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 2vmin;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+}
