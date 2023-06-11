@@ -1,15 +1,13 @@
 import "./About.css";
 import AboutImg from "../../assets/home-page-img.png";
-import {Routes, Route, useNavigate} from 'react-router-dom'
-import DestinationForm from "../../components/DestinationForm/DestinationForm";
+import { useNavigate, Link } from "react-router-dom";
 
 export default function About() {
-
-  let navigate = useNavigate();
-  const routeChange = () => {
-    let path = '/destinationform';
-    navigate(path);
-  };
+  //   let navigate = useNavigate();
+  //   const routeChange = () => {
+  //     let path = '/destinationform';
+  //     navigate(path);
+  //   };
 
   return (
     <div className="container">
@@ -33,7 +31,9 @@ export default function About() {
           integer malesuada nunc. Pellentesque sit amet porttitor eget dolor
           morbi non.
         </p>
-        <button onClick={routeChange}> Start Planning </button>
+        <Link to="/destinationform">
+          <button> Start Planning </button>
+        </Link>
       </div>
     </div>
   );
