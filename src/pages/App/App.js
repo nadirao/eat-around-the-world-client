@@ -7,6 +7,7 @@ import Home from '../Home/Home';
 import About from '../About/About';
 import Featured from '../Featured/Featured';
 import Itinerary from '../Itinerary/Itinerary';
+import DestinationForm from '../../components/DestinationForm/DestinationForm';
 
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/featured" element={<Featured />}></Route>
         <Route path="/itinerary" element={<Itinerary />}></Route>
+        <Route path="/destinationform" element={<DestinationForm />} />
       </Routes>
       {/* <Footer /> */}
     </div>
