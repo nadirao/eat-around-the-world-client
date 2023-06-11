@@ -10,7 +10,7 @@ export default function About() {
   //   };
 
   return (
-    <div className="container">
+    <div className="about-container">
       <div className="image">
         <img src={AboutImg} title="about-img" alt="pizza-in-venice" />
       </div>
