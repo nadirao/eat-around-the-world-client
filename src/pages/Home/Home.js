@@ -1,7 +1,7 @@
 import './Home.css'
-import Home from '../../assets/home-page-img.png'
+import HomeImg from '../../assets/home-page-img.png'
 
-export default function NavBar(){
+export default function Home(){
     return(
         <div className="container">
             <div className="text">
@@ -9,7 +9,7 @@ export default function NavBar(){
                 <p>Explore a number of different restaurants on your upcoming trip and plan an experience you won't forget for every meal!</p>
             </div>
             <div className="image">
-            <img src={Home} title="home-img" alt="pizza-in-venice" />
+            <img src={HomeImg} title="home-img" alt="pizza-in-venice" />
             </div>
         </div>
     )
