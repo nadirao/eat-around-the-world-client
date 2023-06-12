@@ -13,10 +13,10 @@
 
 | Description | Screenshot |
 | --------------- | --------------- |
-| Sign Up Page  |   |
-| Home Page  |  |
-| Search Challenges Page |  |
-| Challenge Page |  |
+| Home Page | <img src='/src/readme-imgs/home.png'>  |
+| About Page  | <img src='/src/readme-imgs/about.png'> |
+| Featured Page | <img src='/src/readme-imgs/featured.png'> |
+| Itinerary Page | <img src='/src/readme-imgs/destination form.png'> |
   
 ## :computer: Technologies Used
 
