@@ -1,5 +1,5 @@
 
-export default function Itinerary(){
+export default function Restaurant(){
     return(
         <h1>This is the Itinerary Page</h1>
     )

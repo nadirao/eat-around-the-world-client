@@ -26,8 +26,8 @@ export default function NavBar() {
         </Link>
       </Button>
       <Button>
-        <Link to="/itinerary">
-          <div>Itinerary</div>
+        <Link to="/restaurant">
+          <div>Restaurant</div>
         </Link>
       </Button>
     </Stack>

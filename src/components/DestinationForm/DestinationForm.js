@@ -42,6 +42,7 @@ export default function DestinationForm({searchYelp}) {
 
 
           <input type="submit" value="Submit"/>
+          <Link to='/featured'>click here to see the results</Link>
         </form>
       </div>
     </div>
