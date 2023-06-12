@@ -5,7 +5,7 @@ import './Featured.css'
 export default function Featured(props) {
   return (
   <div className="featured-container">
-<ImageList sx={{ width: '100vh', height: '100vmin'}} cols={4} rowHeight={400} gap={70}>
+<ImageList sx={{ width: '100vh', height: '100vmin'}} cols={4} rowHeight={400} gap={50}>
   {props.businesses.map((item) => (
     
     <ImageListItem key={item.imageSrc}>
@@ -16,7 +16,7 @@ export default function Featured(props) {
         loading="lazy"
       />
       <p>{item.name}</p>
-      <Link to='/restaurant'>
+      <Link to={`/restaurant`}>
 
       <Button>Click to view restaurant</Button>
       </Link>

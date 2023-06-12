@@ -6,9 +6,9 @@ import Footer from '../../components/Footer/Footer';
 import Home from '../Home/Home';
 import About from '../About/About';
 import Featured from '../Featured/Featured';
+import Restaurant from '../Restaurant/Restaurant';
 import DestinationForm from '../../components/DestinationForm/DestinationForm';
 import searchYelp from '../../hooks/yelp-api/searchYelp';
-import Restaurant from '../Itinerary/Itinerary';
 
 
 export default function App() {
