@@ -26,7 +26,7 @@ export default function DestinationForm({searchYelp}) {
   
   return (
     <div className="df-container">
-      <div className="image">
+      <div className="df-image">
         <img src={DFImage} title="df-img" alt="pizza-in-venice" />
       </div>
       <div className="destination-form">
