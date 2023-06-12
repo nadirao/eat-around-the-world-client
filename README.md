@@ -6,7 +6,7 @@
 
 
 ## :pencil: Description
-  
+Eat Around the World is a full-stack application built using the MERN stack. This app is inspired by my sister and her love for planning everything down to the small details on a trip itinerary. The goal is for users to select breakfast, lunch, and dinner restaurant options for their upcoming trip. Let’s say my sister is going on a trip to Hawaii for 7 days and she cannot be bothered to run to the market everyday and has some extra money to spend on eating out (she has also been craving Hawaiian cuisine for some time now). Prior to her travels, my sister navigates to eataroundtheworld.com and selects her travel location and the dates she is staying. She plans a different restaurant for every meal (mostly Hawaiian cuisine but some American cuisine for a familiar taste). She lets out a sigh of relief and is no longer anxious about looking for food to eat in an unfamiliar place. That is the goal of Eat Around the World. To optimize a travelers time by planning beforehand which leads to an increase in sightseeing/leisure time! 
 
   
 ## :camera_flash: Screenshots 
@@ -62,18 +62,18 @@
 
 <details open>
   <summary> Deployed Link (Netlify) </summary>
-  <a href=
-    > </a
+  <a href='https://eat-around-the-world.netlify.app/'
+    >https://eat-around-the-world.netlify.app/</a
   >
 </details>
   
 ## :satellite: Upcoming Features
 
-- [:star:] Add Auth
+- [:star:] Add Authentication
 
-- [:star:] 
+- [:star:] Fix Styling
   
-- [:star:] 
+- [:star:] Implement a backend
   
 ## :speaking_head: Acknowledgements
   
