@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 import { Button, ImageList, ImageListItem, ImageListItemBar } from "@mui/material";
+import './Featured.css'
 
 export default function Featured(props) {
   return (
-<ImageList sx={{ width: '100vmin', height: '100vh'}} cols={3} rowHeight={400}>
+  <div className="featured-container">
+<ImageList sx={{ width: '100vh', height: '100vmin'}} cols={4} rowHeight={400} gap={70}>
   {props.businesses.map((item) => (
     
     <ImageListItem key={item.imageSrc}>
@@ -21,5 +23,6 @@ export default function Featured(props) {
     </ImageListItem>
   ))}
 </ImageList>
+</div>
   );
 }
