@@ -1,6 +1,7 @@
 import "./About.css";
 import AboutImg from "../../assets/home-page-img.png";
 import { useNavigate, Link } from "react-router-dom";
+import { Button } from '@mui/material'
 
 export default function About() {
   //   let navigate = useNavigate();
@@ -11,7 +12,7 @@ export default function About() {
 
   return (
     <div className="about-container">
-      <div className="image">
+      <div className="about-image">
         <img src={AboutImg} title="about-img" alt="pizza-in-venice" />
       </div>
       <div className="text">
@@ -32,7 +33,7 @@ export default function About() {
           morbi non.
         </p>
         <Link to="/destinationform">
-          <button> Start Planning </button>
+          <Button> Start Planning </Button>
         </Link>
       </div>
     </div>
