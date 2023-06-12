@@ -1,6 +1,8 @@
+import DestinationForm from "../../components/DestinationForm/DestinationForm";
 
-export default function Featured(){
-    return(
-        <h1>This is the Featured Page</h1>
-    )
+export default function Featured(props) {
+  return (
+    <div className="image-container">
+    </div>
+  );
 }
