@@ -23,7 +23,7 @@ export default function DestinationForm({searchYelp}) {
     searchYelp(term, location);
   };
 
-
+  
   return (
     <div className="df-container">
       <div className="image">
@@ -39,9 +39,9 @@ export default function DestinationForm({searchYelp}) {
           <label> Cuisine
             <input type="text" name="term" onChange={handleTermChange} placeholder="What are you craving?" />
           </label>
-          <Link to='/featured'>
-          <input type="submit" value="Submit" onClick={handleSearch}/>
-          </Link>
+
+
+          <input type="submit" value="Submit"/>
         </form>
       </div>
     </div>
