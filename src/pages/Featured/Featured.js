@@ -1,22 +1,21 @@
-import DestinationForm from "../../components/DestinationForm/DestinationForm";
-import { ImageList, ImageListItem, ImageListItemBar } from '@mui/material';
 
+import { Button, ImageList, ImageListItem, ImageListItemBar } from "@mui/material";
 
 export default function Featured(props) {
   return (
-    <ImageList variant="masonry" cols={3} gap={25}>
-  {props.businesses.map((b) => (
-    <ImageListItem key={b.id}>
+<ImageList sx={{ width: '100vmin', height: '100vh'}} cols={3} rowHeight={400}>
+  {props.businesses.map((item) => (
+    <ImageListItem key={item.imageSrc}>
       <img
-        src={`${b.imageSrc}?w=248&fit=crop&auto=format`}
-        srcSet={`${b.imageSrc}?w=248&fit=crop&auto=format&dpr=2 2x`}
-        alt={b.title}
+        src={`${item.imageSrc}?w=164&h=164&fit=crop&auto=format`}
+        srcSet={`${item.imageSrc}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+        alt={item.name}
         loading="lazy"
       />
-      <ImageListItemBar position="below" title={b.name} />
+      <p>{item.name}</p>
+      <Button>Add to Itinerary</Button>
     </ImageListItem>
   ))}
 </ImageList>
-
   );
 }
