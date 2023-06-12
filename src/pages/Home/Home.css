@@ -1,18 +1,21 @@
-.container {
+.home-container {
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin: 5vmin;
    }
-   
-   img {
 
-    float: left;
+   .home-image{
+    margin: 5vmin;
+
    }
-   
-   .text {
-     background-color: #f1f1f1;
-     font-size: 20px;
-     padding-left: 20px;
-     padding-top: 20%;
-     float: left;
+
+   .home-image > img{
+    width: 600px;
+    height: 600px;
+   }
+
+   h1{
+    text-align: center;
+    margin-bottom: 3vmin;
    }

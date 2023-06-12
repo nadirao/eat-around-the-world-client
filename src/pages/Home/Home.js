@@ -1,6 +1,7 @@
 import "./Home.css";
 import HomeImg from "../../assets/home-page-img.png";
 import { Link } from "react-router-dom";
+import { Button } from '@mui/material'
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
           </p>
           <div className="home-content-btns"></div>
           <Link to="/about">
-            <button className="home-button" type="button">Get Started</button>
+            <Button className="home-button" type="button">Get Started</Button>
           </Link>
         </div>
       </div>
