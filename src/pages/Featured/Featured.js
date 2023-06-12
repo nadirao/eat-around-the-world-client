@@ -14,9 +14,9 @@ export default function Featured(props) {
         loading="lazy"
       />
       <p>{item.name}</p>
-      <Link to='/itinerary'>
+      <Link to='/restaurant'>
 
-      <Button>Add to Itinerary</Button>
+      <Button>Click to view restaurant</Button>
       </Link>
     </ImageListItem>
   ))}

@@ -1,6 +1,6 @@
 
 export default function Restaurant(){
     return(
-        <h1>This is the Itinerary Page</h1>
+        <h1>This is the Restautant Page</h1>
     )
 }
