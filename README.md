@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+<div id="description" align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Eat Around The World
 
-## Available Scripts
+### [CLICK TO DEMO](NOT HOSTED YET!)
 
-In the project directory, you can run:
 
-### `npm start`
+## :pencil: Description
+  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  
+## :camera_flash: Screenshots 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Description | Screenshot |
+| --------------- | --------------- |
+| Sign Up Page  |   |
+| Home Page  |  |
+| Search Challenges Page |  |
+| Challenge Page |  |
+  
+## :computer: Technologies Used
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
+![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)
+![Material UI](https://img.shields.io/badge/Material--UI-05122A?style=flat&logo=mui)
+![Trello](https://img.shields.io/badge/-Trello-05122A?style=flat&logo=trello)
+![Netlify](https://img.shields.io/badge/Netlify-05122A?style=flat&logo=netlify)
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
+![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
+![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)
+![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
+![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)
+![Node](https://img.shields.io/badge/-Node.js-05122A?style=flat&logo=node.js)
+  
+## :fire: Getting Started
+  
+<details>
+  <summary> How to enter your destination </summary>
+  <ul>
+    <li></li>
+    <li></li>
+  </ul>
+</details>
 
-### `npm run build`
+<details>
+  <summary> How to Add a Restaurant to your itinerary </summary>
+  <ul>
+    <li></li>
+    <li></li>
+  </ul>
+    
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details open>
+  <summary> Trello Board </summary>
+  <a href='https://trello.com/b/NwX6sNpo/eat-around-the-world'
+    > https://trello.com/b/NwX6sNpo/eat-around-the-world </a
+  >
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details open>
+  <summary> Deployed Link (Netlify) </summary>
+  <a href=
+    > </a
+  >
+</details>
+  
+## :satellite: Upcoming Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [:star:] Add Auth
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [:star:] 
+  
+- [:star:] 
+  
+## :speaking_head: Acknowledgements
+  
+Thank you Megan for sharing your project 3 link! Your home page inspired mine hehe
