@@ -13,10 +13,10 @@
 
 | Description | Screenshot |
 | --------------- | --------------- |
-| Home Page | <img src='/src/readme-imgs/home.png'>  |
-| About Page  | <img src='/src/readme-imgs/about.png'> |
-| Featured Page | <img src='/src/readme-imgs/featured.png'> |
-| Itinerary Page | <img src='/src/readme-imgs/destination form.png'> |
+| Home Page | <img src='/src/README-imgs/Home.png'>  |
+| About Page  | <img src='/src/README-imgs/About.png'> |
+| Featured Page | <img src='/src/README-imgs/Featured.png'> |
+| Itinerary Page | <img src='/src/README-imgs/Destination Form.png'> |
   
 ## :computer: Technologies Used
 
