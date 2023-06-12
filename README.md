@@ -2,7 +2,7 @@
 
 # Eat Around The World
 
-### [CLICK TO DEMO](NOT HOSTED YET!)
+### [CLICK TO DEMO](https://eat-around-the-world.netlify.app/)
 
 
 ## :pencil: Description
