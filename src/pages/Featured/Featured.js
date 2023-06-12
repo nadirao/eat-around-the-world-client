@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import { Button, ImageList, ImageListItem, ImageListItemBar } from "@mui/material";
 
 export default function Featured(props) {
@@ -13,7 +13,10 @@ export default function Featured(props) {
         loading="lazy"
       />
       <p>{item.name}</p>
+      <Link to='/itinerary'>
+
       <Button>Add to Itinerary</Button>
+      </Link>
     </ImageListItem>
   ))}
 </ImageList>
